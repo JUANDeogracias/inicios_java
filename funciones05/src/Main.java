@@ -1,9 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    public static void precioTotal(float precioUd, int ud) {
+        float precioTotal = precioUd * ud;
+        System.out.println("El precio total es de " + precioTotal);
+    }
+
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("");
+        float precioUd = 3.0f;
+        int ud =3;
+        precioTotal(precioUd, ud);
     }
 }
