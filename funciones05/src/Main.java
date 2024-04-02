@@ -1,12 +1,11 @@
 public class Main {
-    public static void precioTotal(float precioUd, int ud) {
-        float precioTotal = precioUd * ud;
-        System.out.println("El precio total es de " + precioTotal);
+    public static float precioTotal(float precioUd, int ud) {
+        float precioTotal;
+        return precioTotal = precioUd * ud;
     }
 
     public static void main(String[] args) {
-        float precioUd = 3.0f;
-        int ud =3;
-        precioTotal(precioUd, ud);
+        System.out.println("El precio total es de " + precioTotal(3.0f,3));
+
     }
 }
