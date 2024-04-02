@@ -6,7 +6,7 @@ public class Main {
         boolean salir = false;
 
         do {
-            // Juego entre los dos jugadores
+            // Juego entre los sdos jugadores
             jugarPartida();
 
             // Menú después de la partida
@@ -87,5 +87,3 @@ public class Main {
         return opcion;
     }
 }
-
-
