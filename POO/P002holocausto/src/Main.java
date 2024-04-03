@@ -6,5 +6,6 @@ public class Main {
         Habitacion hab1 = new Habitacion();
         Personaje jugador = new Personaje();
 
+        System.out.println("El nombre de el jugador es : " + jugador.getNombre("Juan"));
     }
 }
